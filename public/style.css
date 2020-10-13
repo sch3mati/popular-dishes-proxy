@@ -1,0 +1,39 @@
+#header {
+  display: block;
+  margin: 0 auto;
+}
+
+#sidebar {
+  position: absolute;
+  right: 75px;
+  width: 352px;
+  transform: translateY(-200px);
+  z-index: -1;
+}
+
+#overview {
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-150px);
+}
+
+#app {
+  display: block;
+  margin: 0 auto;
+  height: 450px;
+  transform: translateX(-150px);
+}
+
+#popular-dishes-section {
+  display: block;
+  margin: 0 auto;
+  height: 425px;
+  width: 678px;
+  transform: translateX(-150px);
+}
+
+#ReviewModule {
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-150px);
+}
