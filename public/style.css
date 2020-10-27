@@ -1,39 +1,51 @@
-#header {
-  display: block;
+.header {
+  position: relative;
+  content: url('./header.jpeg');
+  width: 100%;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 992px;
+  margin-left: 250px;
+  margin-right: auto;
+}
+
+.main {
+  width: 640px;
   margin: 0 auto;
+}
+
+#overview {
+  padding: 2rem 1rem;
+  content: url('./restrInfo.jpeg');
+  width: 100%;
 }
 
 #sidebar {
   position: absolute;
   right: 75px;
   width: 352px;
-  transform: translateY(-200px);
+  top: 610px;
   z-index: -1;
 }
 
-#overview {
-  display: block;
+.container {
   margin: 0 auto;
-  transform: translateX(-150px);
 }
 
 #app {
-  display: block;
-  margin: 0 auto;
-  height: 450px;
-  transform: translateX(-150px);
+  transform: translateX(15px);
+  height: 430px;
 }
 
 #popular-dishes-section {
-  display: block;
-  margin: 0 auto;
-  height: 425px;
-  width: 678px;
-  transform: translateX(-150px);
+  padding: 5px 0;
+  transform: translateX(15px);
+  margin-bottom: 30px;
 }
 
 #ReviewModule {
-  display: block;
-  margin: 0 auto;
-  transform: translateX(-150px);
+  padding: 0 0 4rem;
 }

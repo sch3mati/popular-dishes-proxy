@@ -1,14 +1,12 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Proxy server",
+  "author": "Anna Kazannik",
+  "license": "ISC",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
+    "start": "nodemon server/server.js",
     "react-dev": "webpack -d --watch"
   },
   "dependencies": {
@@ -16,8 +14,8 @@
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "axios": "^0.20.0",
-    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.44.1",

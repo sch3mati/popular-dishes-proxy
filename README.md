@@ -1,9 +1,10 @@
-# bookings-service
-feature to see available times for selected dates and number of guests
+# Project Name
+TKOut, popular-dishes proxy server
+
+Proxy server for popular dishes service
 
 ## Related Projects
 
-  - https://github.com/TKOut-HRSF130/popular-dishes-service
   - https://github.com/TKOut-HRSF130/photos-carousel-service
   - https://github.com/TKOut-HRSF130/bookings-service
   - https://github.com/TKOut-HRSF130/reviews-service
@@ -35,4 +36,3 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
-
